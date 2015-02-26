@@ -48,7 +48,7 @@
 				pinctrl-0 = <&jbtek_pins>;
 
 				spi-max-frequency = <16000000>;
-				rotate = <270>;
+				rotate = <90>;
 				bgr;
 				fps = <30>;
 				buswidth = <8>;
@@ -82,7 +82,7 @@
 				interrupts = <17 2>; /* high-to-low edge triggered */
 				interrupt-parent = <&gpio>;
 				pendown-gpio = <&gpio 17 0>;
-				ti,x-plate-ohms = /bits/ 16 <100>;
+				ti,x-plate-ohms = /bits/ 16 <60>;
 				ti,pressure-max = /bits/ 16 <255>;
 			};
 		};
