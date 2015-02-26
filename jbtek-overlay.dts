@@ -47,7 +47,7 @@
 				pinctrl-names = "default";
 				pinctrl-0 = <&jbtek_pins>;
 
-				spi-max-frequency = <32000000>;
+				spi-max-frequency = <16000000>;
 				rotate = <270>;
 				bgr;
 				fps = <30>;
