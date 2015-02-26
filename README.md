@@ -1,5 +1,4 @@
-JBTEK 3.5" LCD Device Tree Overlay for the Raspberry PI
-===
+### JBTEK 3.5" LCD Device Tree Overlay for the Raspberry PI
 This is an Overlay I wrote that supports the [JBTek 3.5" TFT LCD](http://www.amazon.com/JBtek-Version-480x320-Raspberry-Nov-2014/dp/B00OB0S8KE) for the Raspberry PI and PI 2 using [notro](https://github.com/notro)'s FBTFT driver.
 
 Installation
